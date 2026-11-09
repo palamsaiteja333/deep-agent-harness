@@ -5,7 +5,7 @@ from models import model
 
 agent = create_deep_agent(
     model=model,
-    checkpointer=MemorySaver(),
+    # checkpointer=MemorySaver(),
 )
 
 thread_a = {"configurable": {"thread_id": "m1-7-thread-a"}}
